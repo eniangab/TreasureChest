@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\cu\\cform.js"
+            //"program": "file:///C:/Users/enian/Desktop/TEMP/CLOUD/Treasure%20Chest/Spurgeon's%20Daily%20Devotional/08%20Abraham,%20Isaac,%20and%20Jacob/summary08.html"
+            //"program": "${workspaceFolder}\\08 Abraham, Isaac, and Jacob\\summary08.html"
+        }
+    ]
+
+    // "version": "0.1.0",
+    // "command": "Chrome",
+    // "windows": {
+    //     "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    // },
+    // "args": ["${file}"]
+}
