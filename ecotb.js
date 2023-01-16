@@ -12,10 +12,14 @@ function toggleContent(e){
 
 function  openBibleRef(bookVerse){
     var url = settings.bibleUrlPrefix + bookVerse + settings.bibleUrlPostfix;
-    window.open(url, '_blank');
+    var urlp = settings.biblePortalUrlPrefix + bookVerse + settings.biblePortalUrlPostfix;
+    //window.open(url, '_blank');
+    window.open(urlp, '_blank');
 }
 
 let settings = {
-    bibleUrlPrefix: 'https://www.biblegateway.com/passage/?search=',
-    bibleUrlPostfix: '&version=NIV'
+    bibleUrlPrefix: 'https://www.biblegateway.com/passage/?search=', //gateway
+    bibleUrlPostfix: '&version=NIV1984',
+    biblePortalUrlPrefix: 'https://bibleportal.com/passage?search=',
+    biblePortalUrlPostfix: '&version=NIV1984'
 };
