@@ -1,0 +1,3 @@
+{
+    "azureStorage.deleteBeforeDeploy": false
+}

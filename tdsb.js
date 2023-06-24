@@ -8,7 +8,7 @@
         }
 
         function toggleContent(e){
-            var headId = e.path[1].id;
+            var headId = e.srcElement.id || e.currentTarget.id;
             var contentId = headId.split('_')[0];
             var content = document.getElementById(contentId);
             
