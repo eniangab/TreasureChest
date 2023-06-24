@@ -1,5 +1,5 @@
 function toggleContent(e){
-    var headId = e.path[0].id;
+    var headId = e.srcElement.id;
     var contentId = headId.split('_')[0];
     var content = document.getElementById(contentId);
     
