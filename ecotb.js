@@ -21,5 +21,5 @@ let settings = {
     bibleUrlPrefix: 'https://bibleportal.com/passage/?search=', //gateway
     bibleUrlPostfix: '&version=ESV1984',
     biblePortalUrlPrefix: 'https://bibleportal.com/passage?search=',
-    biblePortalUrlPostfix: '&version=ESV1984'
+    biblePortalUrlPostfix: '&version=ESV'
 };
