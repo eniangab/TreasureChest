@@ -18,8 +18,8 @@ function  openBibleRef(bookVerse){
 }
 
 let settings = {
-    bibleUrlPrefix: 'https://www.biblegateway.com/passage/?search=', //gateway
-    bibleUrlPostfix: '&version=NIV1984',
-    biblePortalUrlPrefix: 'https://bibleportal.com/passage/?search=',
+    bibleUrlPrefix: 'https://bibleportal.com/passage/?search=', //gateway
+    bibleUrlPostfix: '&version=ESV1984',
+    biblePortalUrlPrefix: 'https://bibleportal.com/passage?search=',
     biblePortalUrlPostfix: '&version=ESV'
 };
